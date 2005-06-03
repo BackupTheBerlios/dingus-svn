@@ -1,0 +1,11 @@
+name = 'uvBackBottomBricks'
+groups = {
+{
+  fx = 'normalMapL', pri = 0,
+  params = {
+	  { 'tex', 'tBase', 'rm/BottomBricks' },
+	  { 'tex', 'tLmap', 'FakeLightmap' },
+	  { 'tex', 'tNormalAO', 'rm/BottomBricksLo.NMF.nao' },
+  },
+},
+}

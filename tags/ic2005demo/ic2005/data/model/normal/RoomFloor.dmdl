@@ -1,0 +1,10 @@
+name = 'RoomFloor'
+groups = {
+{
+  fx = 'wall_StS2R', pri = 0,
+  params = {
+	  { 'stex', 'tShadow', 'shadowBlur' },
+	  { 'stex', 'tShadow2', 'shadow2S' },
+  },
+},
+}
