@@ -1,0 +1,87 @@
+. = todo
++ = in progress / not fully finished
+* = done
+- = will be cut :)
+
+-----------------------------------------------------------------------------
+IN PROGRESS
+
+CODE
+
+. Benchmark mode!
+. Look at asm of the shaders, profile
+. Aniso filter for some objects?
+- Shadows for other guys
+- Fresnel for reflections?
+- Reflections into single RT, with stencil/Z masks for fast culling
+- Tweak character lighting
+- Glow; render extra brightness to alpha
+
++ Demo tweak UI
+
+ART
+
+. Lightmap seam in 2nd room
+- Adjust room layout to fill 1-px gaps somewhere.
+
+
+-----------------------------------------------------------------------------
+RECENTLY DONE
+
+CODE
+* Fixed loading screen contrast bug
+* Shadows for main char in 2nd room
+* Interactive mode
+* Test on various hardware
+* Blur in/out in several places
+* Shared textures with tex2Dproj bug fixed (affected geforceFX)
+* Turn on electricity at needed point
+* Tweak rendering contast
+* Attack effects
+* Scene poetry at the end
+* Take time source from music
+* Loading screen
+* Character's electricity effects
+* Go to interactive mode when scroller ends or space is pressed
+* Clear pieces when entering interactive mode
+* Fade out physics pieces
+* Fracture out whole ceiling, drop pieces
+* Fix physics glitches (pieces standing on thin sides, stuck to walls etc.)
+* Play/fadein/fadeout interactive mode music for scroller/intmode.
+* Time-blend character's texture
+* Separate light for 2nd room
+* 2nd fractured room
+* Scroller scene
+* DoF
+* Add 2nd room
+* Optimize/hack physics for the massive fracture scene
+* Tweak last attack position (clear walls for doors)
+* Add music (added via BASS)
+* Cull walls for reflections
+* Shadows from bed/wallpieces
+* Tweaks to wall restoring: perpixel light
+* Reflect bed
+* Restore walls (put back pieces, blend in wall)
+* Tweak first attack's positions (lower)
+* Fade out bed/stone pieces
+* Don't shadow ceiling
+* Floor/ceil doesn't fracture, replace by fixed meshes
+* Reflect outer room
+* Frustum cull objects
+* Animate doors
+* Other characters
+* Single smooth group for physics pieces' caps
+* Don't render wall caps for reflections
+* Fix lighting on some objects bug
+* Light pos in object space via fx params
+
+ART
+* Fake lightmaps to the rescue!
+* Tweak attack effect animations
+* Hand edited character's AO texture to fix bad places :)
+* Add final 1st attacks anim
+* Change fx texture borders to white from black
+* DDS all textures, experiment with mip filters
+* Fix tiny blinking polys on bed model
+* Low poly / UV / NMap 2nd gargoyle
+* NMap top/ceil/floor bricks
