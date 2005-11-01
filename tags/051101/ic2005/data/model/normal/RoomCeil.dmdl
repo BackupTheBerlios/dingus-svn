@@ -1,0 +1,8 @@
+name = 'RoomCeil'
+groups = {
+{
+  fx = 'wall_StR', pri = 0,
+  params = {
+  },
+},
+}
