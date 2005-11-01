@@ -1,0 +1,9 @@
+name = 'ScrollerFloor'
+groups = {
+{
+  fx = 'scrollerFloor', pri = 0,
+  params = {
+	  { 'stex', 'tShadow', 'shadowBlur' },
+  },
+},
+}

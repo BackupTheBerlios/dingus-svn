@@ -1,0 +1,8 @@
+name = 'BedPieces'
+groups = {
+{
+  fx = 'skinCasterSimple', pri = 0,
+  params = {
+  },
+},
+}

@@ -1,0 +1,10 @@
+name = 'Bicas'
+groups = {
+{
+  fx = 'skin', pri = 0,
+  params = {
+	  { 'tex', 'tNormalAO', 'BicasLo.NMF.nao' },
+	  { 'tex', 'tBase', 'BicasTex' },
+  },
+},
+}

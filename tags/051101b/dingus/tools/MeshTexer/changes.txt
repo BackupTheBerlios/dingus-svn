@@ -1,0 +1,10 @@
+MeshTexer changelog
+
+050629: Removed gloss generation. Preview light now is in view space
+		(i.e. attached to camera). Now really can save to DDS or PNG.
+
+050604: MeshTexer added to repository. This tool was used for in.out.side
+		demo to generate textures on arbitrary models from tileable textures
+		by projecting them. The initial release could generate diffuse and
+		gloss map into one texture, but that was never used; so I'll throw
+		the gloss part out really soon.

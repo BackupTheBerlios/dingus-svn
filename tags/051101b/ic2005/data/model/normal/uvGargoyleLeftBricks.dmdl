@@ -1,0 +1,11 @@
+name = 'uvGargoyleLeftBricks'
+groups = {
+{
+  fx = 'normalMapL', pri = 0,
+  params = {
+	  { 'tex', 'tBase', 'rm/BottomBricks2' },
+	  { 'tex', 'tLmap', 'FakeLightmap' },
+	  { 'tex', 'tNormalAO', 'rm/BottomBricksLo.NMF.nao' },
+  },
+},
+}

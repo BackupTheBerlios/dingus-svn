@@ -1,0 +1,8 @@
+name = 'Bicas'
+groups = {
+{
+  fx = 'skinCaster', pri = 0,
+  params = {
+  },
+},
+}

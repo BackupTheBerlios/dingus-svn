@@ -1,0 +1,9 @@
+name = 'Stone'
+groups = {
+{
+  fx = 'bedanim', pri = 0,
+  params = {
+	  { 'stex', 'tShadow', 'shadowBlur' },
+  },
+},
+}
